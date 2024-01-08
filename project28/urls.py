@@ -24,3 +24,7 @@ urlpatterns = [
     path('insert_webpage/',insert_webpage,name='insert_webpage'),
     path('insert_acessrecord/',insert_acessrecord,name='insert_acessrecord')
 ]
+
+admin.site.site_header = 'Django Database' #used to change the header of the Database
+admin.site.site_title = 'Modelforms Data' #used to change the title of the database
+admin.site.index_title = 'Modelforms Dj data'
